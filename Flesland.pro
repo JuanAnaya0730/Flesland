@@ -11,10 +11,12 @@ CONFIG += c++11
 SOURCES += \
     cuchillo.cpp \
     main.cpp \
+    maingame.cpp \
     personaje.cpp
 
 HEADERS += \
     cuchillo.h \
+    maingame.h \
     personaje.h
 
 # Default rules for deployment.
