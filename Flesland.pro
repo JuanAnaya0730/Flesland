@@ -10,16 +10,25 @@ CONFIG += c++11
 
 SOURCES += \
     cuchillo.cpp \
+    flecha.cpp \
     main.cpp \
     maingame.cpp \
-    personaje.cpp
+    personaje.cpp \
+    plataforma.cpp \
+    sierra.cpp
 
 HEADERS += \
     cuchillo.h \
+    flecha.h \
     maingame.h \
-    personaje.h
+    personaje.h \
+    plataforma.h \
+    sierra.h
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
+
+RESOURCES += \
+    recursos.qrc
