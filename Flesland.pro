@@ -14,6 +14,7 @@ SOURCES += \
     flecha.cpp \
     main.cpp \
     maingame.cpp \
+    muro.cpp \
     personaje.cpp \
     plataforma.cpp \
     sierra.cpp
@@ -23,6 +24,7 @@ HEADERS += \
     cuchillo.h \
     flecha.h \
     maingame.h \
+    muro.h \
     personaje.h \
     plataforma.h \
     sierra.h
