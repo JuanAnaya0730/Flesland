@@ -7,7 +7,7 @@
 class Plataforma:
         public QGraphicsItem
 {
-private:
+protected:
     int w,h;
     int posx, posy;
 
