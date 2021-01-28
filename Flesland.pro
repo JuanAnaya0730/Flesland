@@ -9,22 +9,28 @@ CONFIG += c++11
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    LeerArchivos.cpp \
+    aldeano.cpp \
     charco.cpp \
     cuchillo.cpp \
     flecha.cpp \
     main.cpp \
     maingame.cpp \
     muro.cpp \
+    nivel.cpp \
     personaje.cpp \
     plataforma.cpp \
     sierra.cpp
 
 HEADERS += \
+    LeerAchivos.h \
+    aldeano.h \
     charco.h \
     cuchillo.h \
     flecha.h \
     maingame.h \
     muro.h \
+    nivel.h \
     personaje.h \
     plataforma.h \
     sierra.h
