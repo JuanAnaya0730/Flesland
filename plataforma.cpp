@@ -17,3 +17,13 @@ void Plataforma::paint(QPainter *painter, const QStyleOptionGraphicsItem *option
     painter->setBrush(Qt::blue);
     painter->drawRect(boundingRect());
 }
+
+int Plataforma::getPosy() const
+{
+    return posy;
+}
+
+int Plataforma::getH() const
+{
+    return h;
+}
