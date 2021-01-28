@@ -10,7 +10,7 @@
 #include <QGraphicsRectItem>
 #include <QTimer>
 
-#define V 2 // Velocidad de los proyectiles.
+#define V 5 // Velocidad de los proyectiles.
 
 class Cuchillo:
         public QObject,

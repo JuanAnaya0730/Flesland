@@ -7,7 +7,7 @@ Cuchillo::Cuchillo(int posicionInicialX, int posicionconstanteY)
     t=0;
 
     posicionY = posicionconstanteY;
-    setRect(X0,posicionY,50,10);
+    setRect(0,0,50,10);
 
     /* Se hace una conexion entre el timpo(timer) y el metodo "actualizarposicion" */
     connect(timer, &QTimer::timeout, this, &Cuchillo::actulizarposicion);
