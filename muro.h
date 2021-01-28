@@ -18,6 +18,12 @@ private:
 
 public:
     Muro(int pX, int pY, int ancho_, int alto_);
+
+    int getPosicionX() const;
+    int getPosicionY() const;
+    int getAncho() const;
+    int getAlto() const;
+
 };
 
 #endif // MURO_H
